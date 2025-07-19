@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(./header.css);
+@import url(./sidebar.css);
+@import url(./video_screen.css);
+
+*{
+    font-size: "Roboto",sans-serif;
+}
+
+main{
+    background-color: rgba(211, 211, 211, .2);
+    box-sizing: border-box;
+    display: flex;
+    padding: 25px;
+}

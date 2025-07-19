@@ -1,0 +1,20 @@
+
+/* BARRA LATERAL */
+#sidebar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar .video_suggested{
+    margin-bottom: 10px;
+    height: 10vh;
+    overflow: hidden;
+}
+
+#sidebar .video_suggested img{
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+    align-items: stretch;
+}

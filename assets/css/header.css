@@ -1,0 +1,66 @@
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#menu .box_logo{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+#menu .hamburguer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 15px;
+}
+
+#menu .hamburguer span{
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+}
+
+#menu .box_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 50%;
+    height: auto;
+}
+
+#menu .input_search{
+    border:1px solid rgba(211, 211, 211, .5);
+    height: 2.5em;
+    width: 25em;
+}
+
+#menu .button_search{
+    background-image: url(../img/lupa_icone_menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border:1px solid rgba(211, 211, 211, .5);
+    cursor: pointer;
+    height: 2.5em;
+    padding: 17px;
+}
+
+#menu .box_icons{
+    width: 10em;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu .box_icons img{
+    width: 2em;
+    border-radius: 20px;
+}

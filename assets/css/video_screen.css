@@ -1,0 +1,75 @@
+#video_screen iframe{
+    width: 97%;
+    height: 70%;
+}
+
+#video_screen h1{
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 22px;
+}
+
+
+#video_screen{
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.video_interaction_bar{
+    max-width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#icons_main_left{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#icons_main_right{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.icon_main{
+    cursor: pointer;   
+    width: auto;
+    height: 30px;
+    background-color: transparent;
+}
+
+.btn_subscribe {
+    height: 30px;
+    width: 700px;
+    border: none;
+    cursor: pointer;   
+    object-fit: contain;
+    padding: 0;
+    
+}
+
+.btn_subscribe img{
+    margin: 0;
+    height: 35px;
+}
+
+#video_screen .views_main{
+    font-size: 14px;
+    padding: .5em 0;
+    width: 40%;
+    color: #515151;
+}
+
+#video_screen .views_main p:nth-child(1) {
+    font-weight: 700; 
+    margin-bottom: 5px;   
+}
